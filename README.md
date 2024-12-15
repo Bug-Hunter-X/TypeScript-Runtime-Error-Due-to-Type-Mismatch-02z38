@@ -1,0 +1,3 @@
+# TypeScript Runtime Error Due to Type Mismatch
+
+This example demonstrates a common TypeScript issue where type mismatches only reveal themselves at runtime, not during compilation.  The `combine` function is designed to merge two arrays of numbers. However, due to a type mismatch in `arr2` (containing a string '6'), a runtime error occurs during the `concat` operation.  The solution involves stricter type checking during the function's execution to prevent such runtime errors.
